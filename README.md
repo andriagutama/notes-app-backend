@@ -18,6 +18,8 @@ server will run at http://localhost:5000/
 POST /notes
 ```
 
+body
+
 ```javascript
 {
     "title" : "Title of Notes",
