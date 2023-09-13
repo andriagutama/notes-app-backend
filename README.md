@@ -14,9 +14,10 @@ server will run at http://localhost:5000/
 
 ### Add New Notes
 
-```http
-POST /notes
-```
+<details>
+    <summary>
+        <code>POST /notes</code>
+    </summary>
 
 body
 
@@ -39,3 +40,4 @@ response
     }
 }
 ```
+</details>
