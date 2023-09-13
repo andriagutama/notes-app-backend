@@ -77,7 +77,7 @@ server will run at http://localhost:5000/
         <code>GET</code> <code>/notes/{id}</code>
     </summary>
 
-### failed response
+#### failed response
 
 ```javascript
 {
@@ -122,7 +122,7 @@ server will run at http://localhost:5000/
 }
 ```
 
-### failed response
+#### failed response
 
 ```javascript
 {
@@ -137,6 +137,32 @@ server will run at http://localhost:5000/
 {
     "status": "success",
     "message": "Catatan berhasil diperbarui"
+}
+```
+</details>
+
+### DELETE Notes
+
+<details>
+    <summary>
+        <code>DELETE</code> <code>/notes/{id}</code>
+    </summary>
+
+#### failed response
+
+```javascript
+{
+    "status": "fail",
+    "message": "Catatan gagal dihapus. Id tidak ditemukan"
+}
+```
+
+#### success response
+
+```javascript
+{
+    "status": "success",
+    "message": "Catatan berhasil dihapus"
 }
 ```
 </details>
