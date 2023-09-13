@@ -41,3 +41,57 @@ server will run at http://localhost:5000/
 }
 ```
 </details>
+
+### Get All Notes
+
+<details>
+    <summary>
+        <code>GET</code> <code>/notes</code>
+    </summary>
+
+#### response
+
+```javascript
+{
+    "status": "success",
+    "data": {
+        "notes": [
+            {
+                "title": "Title of notes",
+                "tags": "Tags of notes",
+                "body": "Body of notes",
+                "id": "u2d8612rCspKjZaH",
+                "createdAt": "2023-09-13T03:45:03.584Z",
+                "updatedAt": "2023-09-13T03:45:03.584Z"
+            }
+        ]
+    }
+}
+```
+</details>
+
+### Get A Notes
+
+<details>
+    <summary>
+        <code>GET</code> <code>/notes/{id}</code>
+    </summary>
+
+#### response
+
+```javascript
+{
+    "status": "success",
+    "data": {
+        "note": {
+            "title": "Title of notes",
+            "tags": "Tags of notes",
+            "body": "Body of notes",
+            "id": "u2d8612rCspKjZaH",
+            "createdAt": "2023-09-13T03:45:03.584Z",
+            "updatedAt": "2023-09-13T03:45:03.584Z"
+        }
+    }
+}
+```
+</details>
