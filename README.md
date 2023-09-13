@@ -16,7 +16,9 @@ server will run at http://localhost:5000/
 
 ```http
 POST /notes
+```
 
+```javascript
 {
     "title" : "Title of Notes",
     "tags" : "Tags of notes",
@@ -26,7 +28,7 @@ POST /notes
 
 response
 
-```
+```javascript
 {
     "status": "success",
     "message": "Catatan berhasil ditambahkan",
