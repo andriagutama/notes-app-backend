@@ -16,7 +16,7 @@ server will run at http://localhost:5000/
 
 <details>
     <summary>
-        <code>POST /notes</code>
+        <code>POST</code><code>/notes</code>
     </summary>
 
 body
