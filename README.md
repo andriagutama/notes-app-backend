@@ -104,3 +104,39 @@ server will run at http://localhost:5000/
 }
 ```
 </details>
+
+### Edit Notes
+
+<details>
+    <summary>
+        <code>PUT</code> <code>/notes/{id}</code>
+    </summary>
+
+#### body
+
+```javascript
+{
+    "title" : "Title of Notes",
+    "tags" : "Tags of notes",
+    "body" : "Body of notes"
+}
+```
+
+### failed response
+
+```javascript
+{
+    "status": "fail",
+    "message": "Gagal memperbarui catatan. Id tidak ditemukan"
+}
+```
+
+#### success response
+
+```javascript
+{
+    "status": "success",
+    "message": "Catatan berhasil diperbarui"
+}
+```
+</details>
