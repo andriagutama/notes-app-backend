@@ -77,7 +77,16 @@ server will run at http://localhost:5000/
         <code>GET</code> <code>/notes/{id}</code>
     </summary>
 
-#### response
+### failed response
+
+```javascript
+{
+    "status": "fail",
+    "message": "Catatan tidak ditemukan"
+}
+```
+
+#### success response
 
 ```javascript
 {
